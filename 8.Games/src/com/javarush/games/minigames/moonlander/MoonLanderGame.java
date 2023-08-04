@@ -1,4 +1,4 @@
-package com.javarush.games.moonlander;
+package com.javarush.games.minigames.moonlander;
 
 import com.javarush.engine.cell.Color;
 import com.javarush.engine.cell.Game;

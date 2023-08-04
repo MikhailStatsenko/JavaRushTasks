@@ -8,7 +8,6 @@ target/
 .repository/
 *.iws
 *.info
-*.jar
 
 /out/
 /JavaRushPlugin.properties

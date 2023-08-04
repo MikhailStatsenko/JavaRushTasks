@@ -1,4 +1,4 @@
-package com.javarush.games.moonlander;
+package com.javarush.games.minigames.moonlander;
 
 public class ShapeMatrix {
     public static final int[][] ROCKET = new int[][]{
