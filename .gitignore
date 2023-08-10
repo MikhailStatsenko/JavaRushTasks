@@ -8,6 +8,9 @@ target/
 .repository/
 *.iws
 *.info
+input.txt
+input1.txt
+input2.txt
 
 /out/
 /JavaRushPlugin.properties
