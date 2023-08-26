@@ -6,6 +6,7 @@ target/
 .idea/
 .idea
 .repository/
+5.OnlineInternship/*
 *.iws
 *.info
 input.txt
