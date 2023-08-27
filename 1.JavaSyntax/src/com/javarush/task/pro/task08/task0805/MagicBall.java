@@ -1,6 +1,5 @@
 package com.javarush.task.pro.task08.task0805;
 
-import java.util.Deque;
 import java.util.Random;
 
 public class MagicBall {

@@ -1,7 +1,6 @@
 package com.javarush.task.task13.task1319;
 
 import java.io.*;
-import java.util.Scanner;
 
 /* 
 Писатель в файл с консоли

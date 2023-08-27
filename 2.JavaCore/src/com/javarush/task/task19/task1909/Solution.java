@@ -1,7 +1,6 @@
 package com.javarush.task.task19.task1909;
 
 import java.io.*;
-import java.util.ArrayList;
 
 /* 
 Замена знаков

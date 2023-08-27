@@ -1,6 +1,8 @@
 package com.javarush.task.task18.task1821;
 
-import java.io.*;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.Map;
 import java.util.SortedMap;
 import java.util.TreeMap;

@@ -1,8 +1,6 @@
 package com.javarush.task.task19.task1908;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.regex.Pattern;
 
 /* 
 Выделяем числа

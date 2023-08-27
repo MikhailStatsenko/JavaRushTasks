@@ -4,8 +4,6 @@ package com.javarush.task.task21.task2101;
 Определяем адрес сети
 */
 
-import java.util.Arrays;
-
 public class Solution {
     public static void main(String[] args) {
         byte[] ip = new byte[]{(byte) 192, (byte) 168, 1, 2};

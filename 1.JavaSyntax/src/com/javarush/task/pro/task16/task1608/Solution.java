@@ -1,6 +1,5 @@
 package com.javarush.task.pro.task16.task1608;
 
-import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.format.TextStyle;
 import java.util.Locale;

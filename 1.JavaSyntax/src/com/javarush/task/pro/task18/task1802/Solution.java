@@ -2,7 +2,6 @@ package com.javarush.task.pro.task18.task1802;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 
 public class Solution {
     public static ArrayList<Student> students = new ArrayList<>();

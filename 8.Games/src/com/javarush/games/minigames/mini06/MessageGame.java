@@ -1,7 +1,7 @@
 package com.javarush.games.minigames.mini06;
 
-import com.javarush.engine.cell.Game;
 import com.javarush.engine.cell.Color;
+import com.javarush.engine.cell.Game;
 
 /* 
 Диалоговые окна

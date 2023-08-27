@@ -4,8 +4,6 @@ package com.javarush.task.task16.task1633;
 Отдебажим все на свете
 */
 
-import java.util.HashMap;
-
 public class Solution {
     public static Thread.UncaughtExceptionHandler handler = new OurUncaughtExceptionHandler();
 

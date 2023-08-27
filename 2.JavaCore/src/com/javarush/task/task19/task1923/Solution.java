@@ -1,8 +1,10 @@
 package com.javarush.task.task19.task1923;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Arrays;
-import java.util.stream.Collectors;
 
 /* 
 Слова с цифрами

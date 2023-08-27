@@ -1,7 +1,8 @@
 package com.javarush.task.task18.task1809;
 
-import java.io.*;
-import java.util.*;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.util.Scanner;
 
 /* 
 Реверс файла

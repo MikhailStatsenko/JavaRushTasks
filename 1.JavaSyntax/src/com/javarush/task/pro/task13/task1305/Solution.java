@@ -1,7 +1,6 @@
 package com.javarush.task.pro.task13.task1305;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Iterator;
 
 /* 

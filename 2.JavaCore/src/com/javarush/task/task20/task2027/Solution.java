@@ -1,7 +1,6 @@
 package com.javarush.task.task20.task2027;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /* 

@@ -1,6 +1,8 @@
 package com.javarush.task.task18.task1822;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.Scanner;
 
 /* 

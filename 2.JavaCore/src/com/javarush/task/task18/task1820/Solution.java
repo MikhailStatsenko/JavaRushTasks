@@ -1,10 +1,10 @@
 package com.javarush.task.task18.task1820;
 
-import java.io.*;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
-import java.util.stream.Stream;
 
 /* 
 Округление чисел

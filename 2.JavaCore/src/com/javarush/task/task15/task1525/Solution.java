@@ -1,11 +1,10 @@
 package com.javarush.task.task15.task1525;
 
-import java.io.*;
-import java.nio.file.Files;
-import java.nio.file.Path;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 /* 
 Файл в статическом блоке

@@ -1,6 +1,8 @@
 package com.javarush.games.racer;
 
-import com.javarush.engine.cell.*;
+import com.javarush.engine.cell.Color;
+import com.javarush.engine.cell.Game;
+import com.javarush.engine.cell.Key;
 import com.javarush.games.racer.road.RoadManager;
 
 public class RacerGame extends Game {

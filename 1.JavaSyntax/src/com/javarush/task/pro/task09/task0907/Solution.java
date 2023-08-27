@@ -1,8 +1,6 @@
 package com.javarush.task.pro.task09.task0907;
 
-import java.util.regex.Pattern;
-
-/* 
+/*
 Шестнадцатеричный конвертер
 */
 

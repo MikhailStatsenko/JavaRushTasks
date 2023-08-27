@@ -1,6 +1,8 @@
 package com.javarush.games.spaceinvaders;
 
-import com.javarush.engine.cell.*;
+import com.javarush.engine.cell.Color;
+import com.javarush.engine.cell.Game;
+import com.javarush.engine.cell.Key;
 import com.javarush.games.spaceinvaders.gameobjects.Bullet;
 import com.javarush.games.spaceinvaders.gameobjects.EnemyFleet;
 import com.javarush.games.spaceinvaders.gameobjects.PlayerShip;

@@ -1,11 +1,8 @@
 package com.javarush.task.pro.task15.task1522;
 
-import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.net.URL;
-import java.nio.file.Files;
 
 /* 
 Получение информации по API

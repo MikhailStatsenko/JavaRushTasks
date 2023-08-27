@@ -1,7 +1,6 @@
 package com.javarush.task.pro.task10.task1012;
 
 import java.util.Arrays;
-import java.util.Objects;
 
 /* 
 Дефрагментация памяти

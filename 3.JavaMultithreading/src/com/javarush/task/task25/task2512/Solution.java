@@ -1,6 +1,6 @@
 package com.javarush.task.task25.task2512;
 
-import java.util.*;
+import java.util.Stack;
 
 /* 
 Живем своим умом

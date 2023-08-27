@@ -4,8 +4,6 @@ package com.javarush.task.task12.task1226;
 Лазать, летать и бегать
 */
 
-import org.xml.sax.helpers.LocatorImpl;
-
 public class Solution {
 
     public static void main(String[] args) {

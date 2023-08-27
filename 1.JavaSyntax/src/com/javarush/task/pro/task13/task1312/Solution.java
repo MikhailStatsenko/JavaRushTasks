@@ -1,6 +1,5 @@
 package com.javarush.task.pro.task13.task1312;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 
 /* 

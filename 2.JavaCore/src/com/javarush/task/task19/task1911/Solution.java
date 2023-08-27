@@ -1,6 +1,5 @@
 package com.javarush.task.task19.task1911;
 
-import java.io.BufferedOutputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 

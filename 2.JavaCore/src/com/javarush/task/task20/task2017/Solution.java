@@ -1,6 +1,5 @@
 package com.javarush.task.task20.task2017;
 
-import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.Serializable;
 

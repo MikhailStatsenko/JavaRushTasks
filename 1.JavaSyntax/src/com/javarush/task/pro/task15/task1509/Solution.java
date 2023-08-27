@@ -1,12 +1,10 @@
 package com.javarush.task.pro.task15.task1509;
 
-import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.HashSet;
-import java.util.Set;
 import java.util.Scanner;
+import java.util.Set;
 
 /* 
 Еще раз читаем из консоли

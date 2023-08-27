@@ -5,7 +5,6 @@ import com.javarush.task.task36.task3608.model.service.UserService;
 import com.javarush.task.task36.task3608.model.service.UserServiceImpl;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class MainModel implements Model {
     private ModelData modelData= new ModelData();

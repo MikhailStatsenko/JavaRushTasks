@@ -1,6 +1,5 @@
 package com.javarush.task.pro.task17.task1705;
 
-import javax.imageio.plugins.tiff.FaxTIFFTagSet;
 import java.util.ArrayList;
 
 /* 

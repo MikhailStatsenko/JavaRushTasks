@@ -1,6 +1,8 @@
 package com.javarush.task.pro.task13.task1304;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
 
 /* 
 Переводим итератор в цикл for-each

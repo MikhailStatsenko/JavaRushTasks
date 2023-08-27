@@ -1,6 +1,5 @@
 package com.javarush.task.task26.task2612;
 
-import java.util.Collections;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 

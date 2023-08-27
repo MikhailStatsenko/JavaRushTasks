@@ -1,9 +1,6 @@
 package com.javarush.task.pro.task16.task1601;
 
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
 import java.util.Date;
-import java.util.GregorianCalendar;
 
 /* 
 Лишь бы не в понедельник :)

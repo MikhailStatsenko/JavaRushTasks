@@ -1,7 +1,6 @@
 package com.javarush.task.task21.task2113;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Hippodrome {

@@ -1,9 +1,6 @@
 package com.javarush.task.pro.task12.task1211;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-
-/* 
+/*
 Сортировка пузырьком
 */
 

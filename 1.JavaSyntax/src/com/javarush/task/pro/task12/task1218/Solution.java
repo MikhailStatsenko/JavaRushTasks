@@ -1,7 +1,10 @@
 package com.javarush.task.pro.task12.task1218;
 
 import java.io.File;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Stack;
 
 /* 
 Shine bright like a diamond

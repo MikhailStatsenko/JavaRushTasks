@@ -1,7 +1,5 @@
 package com.javarush.task.task25.task2503;
 
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 

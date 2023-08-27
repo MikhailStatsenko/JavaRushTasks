@@ -1,7 +1,8 @@
 package com.javarush.task.task18.task1823;
 
-import java.io.*;
-import java.util.Arrays;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;

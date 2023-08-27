@@ -1,6 +1,8 @@
 package com.javarush.task.pro.task15.task1523;
 
-import java.io.*;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.net.URL;
 import java.net.URLConnection;
 

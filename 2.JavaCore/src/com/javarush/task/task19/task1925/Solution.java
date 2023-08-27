@@ -1,7 +1,6 @@
 package com.javarush.task.task19.task1925;
 
 import java.io.*;
-import java.util.ArrayList;
 
 /* 
 Длинные слова

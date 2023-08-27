@@ -1,6 +1,9 @@
 package com.javarush.task.task20.task2021;
 
-import java.io.*;
+import java.io.NotSerializableException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
 
 /* 
 Сериализация под запретом

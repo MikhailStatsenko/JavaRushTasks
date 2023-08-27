@@ -1,6 +1,7 @@
 package com.javarush.games.minigames.moonlander;
 
-import com.javarush.engine.cell.*;
+import com.javarush.engine.cell.Color;
+import com.javarush.engine.cell.Game;
 
 public class GameObject {
     public double x;

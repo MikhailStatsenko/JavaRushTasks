@@ -1,9 +1,11 @@
 package com.javarush.task.task19.task1921;
 
-import java.io.*;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.GregorianCalendar;
+import java.util.List;
 
 /* 
 Хуан Хуанович

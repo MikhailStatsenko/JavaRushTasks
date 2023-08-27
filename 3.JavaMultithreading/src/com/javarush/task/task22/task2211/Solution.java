@@ -2,8 +2,6 @@ package com.javarush.task.task22.task2211;
 
 import java.io.*;
 import java.nio.charset.Charset;
-import java.nio.charset.StandardCharsets;
-import java.util.Scanner;
 
 /* 
 Смена кодировки

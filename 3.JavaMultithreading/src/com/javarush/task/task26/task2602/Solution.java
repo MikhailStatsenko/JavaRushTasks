@@ -1,6 +1,5 @@
 package com.javarush.task.task26.task2602;
 
-import java.util.Collections;
 import java.util.Set;
 import java.util.TreeSet;
 

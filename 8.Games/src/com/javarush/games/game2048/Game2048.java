@@ -1,6 +1,8 @@
 package com.javarush.games.game2048;
 
-import com.javarush.engine.cell.*;
+import com.javarush.engine.cell.Color;
+import com.javarush.engine.cell.Game;
+import com.javarush.engine.cell.Key;
 
 import java.util.Arrays;
 

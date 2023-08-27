@@ -1,6 +1,8 @@
 package com.javarush.games.minigames.mini08;
 
-import com.javarush.engine.cell.*;
+import com.javarush.engine.cell.Color;
+import com.javarush.engine.cell.Game;
+import com.javarush.engine.cell.Key;
 
 /* 
 Работа с клавиатурой

@@ -1,7 +1,6 @@
 package com.javarush.task.pro.task12.task1222;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 /* 
 Выводим в консоли разные типы

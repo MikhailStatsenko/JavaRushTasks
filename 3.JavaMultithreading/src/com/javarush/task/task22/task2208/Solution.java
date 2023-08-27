@@ -1,7 +1,6 @@
 package com.javarush.task.task22.task2208;
 
 import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.Map;
 
 /* 
