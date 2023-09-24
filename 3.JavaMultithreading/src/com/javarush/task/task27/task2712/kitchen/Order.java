@@ -8,29 +8,47 @@ import java.util.List;
 
 public class Order {
     private final Tablet tablet;
+
+    public List<Dish> getDishes() {
+        return dishes;
+    }
+
+    public Tablet getTablet() {
+
+        return tablet;
+    }
+
     protected List<Dish> dishes;
 
     public Order(Tablet tablet) throws IOException {
         this.tablet = tablet;
-        dishes = ConsoleHelper.getAllDishesForOrder();
+        this.dishes = ConsoleHelper.getAllDishesForOrder();
+        ConsoleHelper.writeMessage(toString());
     }
 
-    public int getTotalCookingTime() {
-        return dishes.stream().mapToInt(Dish::getDuration).sum();
+    @Override
+    public String toString() {
+        StringBuilder result = new StringBuilder();
+        if (dishes.size() == 0) return result.toString();
+        result.append("Your order: [" + dishes.get(0));
+
+        for (int i = 1; i < dishes.size(); i++) {
+            result.append(", " + dishes.get(i).name());
+        }
+        result.append("] of " + tablet);
+        result.append(", cooking time " + getTotalCookingTime() + "min");
+        return result.toString();
     }
 
     public boolean isEmpty() {
         return dishes.isEmpty();
     }
 
-    @Override
-    public String toString() {
-        StringBuilder dishNameList = new StringBuilder();
+    public int getTotalCookingTime() {
+        int cookingTime = 0;
         for (Dish dish : dishes) {
-            dishNameList.append(dish.name()).append(", ");
+            cookingTime += dish.getDuration();
         }
-        if (dishNameList.length() > 1)
-            dishNameList.delete(dishNameList.length()-2, dishNameList.length());
-        return String.format("Your order: [%s] of %s, cooking time %dmin", dishNameList, tablet, getTotalCookingTime());
+        return cookingTime;
     }
 }
