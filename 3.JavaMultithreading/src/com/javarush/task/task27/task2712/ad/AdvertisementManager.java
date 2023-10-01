@@ -18,7 +18,7 @@ public class AdvertisementManager {
 
     public void processVideos() {
         this.totalTimeSecondsLeft = Integer.MAX_VALUE;
-        obtainOptimalVideoSet(new ArrayList<Advertisement>(), timeSeconds, 0l);
+        obtainOptimalVideoSet(new ArrayList<>(), timeSeconds, 0l);
 
         VideoSelectedEventDataRow row = new VideoSelectedEventDataRow(optimalVideoSet, maxAmount, timeSeconds - totalTimeSecondsLeft);
         StatisticManager.getInstance().register(row);
@@ -26,7 +26,6 @@ public class AdvertisementManager {
         displayAdvertisement();
     }
 
-    //recursy
     private long maxAmount;
     private List<Advertisement> optimalVideoSet;
     private int totalTimeSecondsLeft;
@@ -66,17 +65,13 @@ public class AdvertisementManager {
     }
 
     private void displayAdvertisement() {
-        //TODO displaying
         if (optimalVideoSet == null || optimalVideoSet.isEmpty()) {
             throw new NoVideoAvailableException();
         }
 
-        Collections.sort(optimalVideoSet, new Comparator<Advertisement>() {
-            @Override
-            public int compare(Advertisement o1, Advertisement o2) {
-                long l = o2.getAmountPerOneDisplaying() - o1.getAmountPerOneDisplaying();
-                return (int) (l != 0 ? l : o2.getDuration() - o1.getDuration());
-            }
+        Collections.sort(optimalVideoSet, (o1, o2) -> {
+            long l = o2.getAmountPerOneDisplaying() - o1.getAmountPerOneDisplaying();
+            return (int) (l != 0 ? l : o2.getDuration() - o1.getDuration());
         });
 
         for (Advertisement ad : optimalVideoSet) {
@@ -86,7 +81,6 @@ public class AdvertisementManager {
     }
 
     private void displayInPlayer(Advertisement advertisement) {
-        //TODO get Player instance and display content
         System.out.println(advertisement.getName() + " is displaying... " + advertisement.getAmountPerOneDisplaying() +
                 ", " + (1000 * advertisement.getAmountPerOneDisplaying() / advertisement.getDuration()));
     }

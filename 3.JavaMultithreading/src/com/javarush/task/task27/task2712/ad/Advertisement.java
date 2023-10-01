@@ -6,13 +6,10 @@ public class Advertisement {
 
     private String name;
 
-    //начальная сумма, стоимость рекламы в копейках. Используем long, чтобы избежать проблем с округлением
     private long initialAmount;
 
-    //количество оплаченных показов
     private int hits;
 
-    //продолжительность в секундах
     private int duration;
 
     private long amountPerOneDisplaying;
@@ -50,5 +47,9 @@ public class Advertisement {
 
     public boolean isActive() {
         return hits > 0;
+    }
+
+    public int getHits() {
+        return hits;
     }
 }

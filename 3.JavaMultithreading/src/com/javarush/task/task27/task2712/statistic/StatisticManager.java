@@ -9,7 +9,7 @@ import com.javarush.task.task27.task2712.statistic.event.VideoSelectedEventDataR
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-public class StatisticManager {
+public class StatisticManager implements Runnable {
     private static StatisticManager ourInstance = new StatisticManager();
 
     public static StatisticManager getInstance() {
@@ -17,9 +17,13 @@ public class StatisticManager {
     }
 
     private StatisticStorage statisticStorage = new StatisticStorage();
-    private Set<Cook> cooks = new HashSet<>();
 
     private StatisticManager() {
+    }
+
+    @Override
+    public void run() {
+
     }
 
     private class StatisticStorage {
@@ -27,7 +31,7 @@ public class StatisticManager {
 
         private StatisticStorage() {
             for (EventType type : EventType.values()) {
-                this.storage.put(type, new ArrayList<EventDataRow>());
+                this.storage.put(type, new ArrayList<>());
             }
         }
 
@@ -51,10 +55,6 @@ public class StatisticManager {
         this.statisticStorage.put(data);
     }
 
-    public void register(Cook cook) {
-        this.cooks.add(cook);
-    }
-
     public Map<String, Long> getProfitMap() {
         Map<String, Long> res = new HashMap();
         List<EventDataRow> rows = statisticStorage.get(EventType.SELECTED_VIDEOS);
@@ -76,7 +76,7 @@ public class StatisticManager {
     }
 
     public Map<String, Map<String, Integer>> getCookWorkloadingMap() {
-        Map<String, Map<String, Integer>> res = new HashMap(); //name, time
+        Map<String, Map<String, Integer>> res = new HashMap();
         List<EventDataRow> rows = statisticStorage.get(EventType.COOKED_ORDER);
         SimpleDateFormat format = new SimpleDateFormat("dd-MMM-yyyy", Locale.ENGLISH);
         for (EventDataRow row : rows) {

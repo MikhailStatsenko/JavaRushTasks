@@ -15,7 +15,6 @@ public class AdvertisementStorage {
     private final List<Advertisement> videos = new LinkedList<>();
 
     private AdvertisementStorage() {
-        //init random videos
         Object someContent = new Object();
         videos.add(new Advertisement(someContent, "First Video", 5000, 100, 3 * 60));   //weight=277
         videos.add(new Advertisement(someContent, "Second Video", 100, 10, 15 * 60));   //weight=11
