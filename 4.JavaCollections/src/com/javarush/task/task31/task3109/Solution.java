@@ -1,8 +1,7 @@
 package com.javarush.task.task31.task3109;
 
-import java.io.*;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.Properties;
 
 /* 
