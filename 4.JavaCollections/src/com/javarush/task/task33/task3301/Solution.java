@@ -1,6 +1,7 @@
 package com.javarush.task.task33.task3301;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.IOException;
@@ -29,26 +30,34 @@ public class Solution {
 
         StringWriter writer = new StringWriter();
         convertToJSON(writer, pets);
-        System.out.println(writer.toString());
+        System.out.println(writer);
         //[{"name":"Murka","age":5,"weight":3},{"name":"Killer","age":8,"owner":"Bill Jeferson"}]
     }
 
     public static void convertToJSON(StringWriter writer, Object object) throws IOException {
-//        ObjectMapper mapper = new ObjectMapper();
-//        mapper.writeValue(writer, object);
+        ObjectMapper mapper = new ObjectMapper();
+        mapper.writeValue(writer, object);
     }
 
+    @JsonAutoDetect
     public static class Pet {
+        @JsonProperty
         String name;
     }
 
+    @JsonAutoDetect
     public static class Cat extends Pet {
+        @JsonProperty
         int age;
+        @JsonProperty
         int weight;
     }
 
+    @JsonAutoDetect
     public static class Dog extends Pet {
+        @JsonProperty
         int age;
+        @JsonProperty
         String owner;
     }
 }
