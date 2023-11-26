@@ -14,5 +14,6 @@
     <orderEntry type="library" name="jakarta.xml.bind-api-2.3.3" level="project" />
     <orderEntry type="library" name="jaxb-runtime-2.3.3" level="project" />
     <orderEntry type="library" name="txw2-2.3.3" level="project" />
+    <orderEntry type="library" name="slf4j.api" level="application" />
   </component>
 </module>
