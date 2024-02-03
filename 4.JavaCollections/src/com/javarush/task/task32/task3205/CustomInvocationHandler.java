@@ -2,7 +2,6 @@ package com.javarush.task.task32.task3205;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
-import java.lang.reflect.Proxy;
 
 public class CustomInvocationHandler implements InvocationHandler {
     SomeInterfaceWithMethods siwm;

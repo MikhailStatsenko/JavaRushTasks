@@ -1,6 +1,5 @@
 package com.javarush.task.task32.task3213;
 
-import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.StringReader;
 import java.io.StringWriter;

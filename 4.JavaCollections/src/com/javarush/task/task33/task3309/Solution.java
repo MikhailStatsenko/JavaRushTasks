@@ -5,11 +5,6 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.Marshaller;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlType;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.transform.OutputKeys;
@@ -91,9 +86,9 @@ public class Solution {
 
     private static String convertObjectToXML(Object o) throws Exception {
         StringWriter writer = new StringWriter();
-        Marshaller marshaller = JAXBContext.newInstance(o.getClass()).createMarshaller();
-        marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
-        marshaller.marshal(o, writer);
+//        Marshaller marshaller = JAXBContext.newInstance(o.getClass()).createMarshaller();
+//        marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
+//        marshaller.marshal(o, writer);
         return writer.toString();
     }
 
@@ -114,10 +109,10 @@ public class Solution {
         System.out.println(toXmlWithComment(obj, "needCDATA", "comment"));
     }
 
-    @XmlType(name = "anExample")
-    @XmlRootElement
+//    @XmlType(name = "anExample")
+//    @XmlRootElement
     public static class AnExample {
-        @XmlElement(name = "needCDATA", type = String.class)
+//        @XmlElement(name = "needCDATA", type = String.class)
         public String[] needCDATA = new String[]{"<needCDATA><![CDATA[need CDATA because of < <>& and >]]></needCDATA>", ""};
 
         public List<String> characters = new ArrayList<>();

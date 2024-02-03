@@ -3,7 +3,6 @@ package com.javarush.task.task32.task3211;
 import java.io.ByteArrayOutputStream;
 import java.io.ObjectOutputStream;
 import java.security.MessageDigest;
-import java.util.Arrays;
 
 /* 
 Целостность информации

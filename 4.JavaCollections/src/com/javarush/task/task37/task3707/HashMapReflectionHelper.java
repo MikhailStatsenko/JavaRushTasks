@@ -3,7 +3,6 @@ package com.javarush.task.task37.task3707;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.HashMap;
-import java.util.HashSet;
 
 public class HashMapReflectionHelper {
     public static <T> T callHiddenMethod(HashMap map, String methodName) {

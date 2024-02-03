@@ -6,8 +6,6 @@ import com.fasterxml.jackson.databind.MapperFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.IOException;
-import java.io.StringReader;
-import java.io.StringWriter;
 
 /* 
 Конвертация из одного класса в другой используя JSON Ӏ 3304

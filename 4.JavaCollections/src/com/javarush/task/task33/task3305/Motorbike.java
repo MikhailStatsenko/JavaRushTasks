@@ -1,7 +1,5 @@
 package com.javarush.task.task33.task3305;
 
-import com.fasterxml.jackson.annotation.JsonAutoDetect;
-
 public class Motorbike extends Vehicle {
     private String owner;
 

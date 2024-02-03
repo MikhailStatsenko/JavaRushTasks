@@ -1,12 +1,12 @@
 package com.javarush.task.task33.task3308;
 
-import javax.xml.bind.annotation.*;
+//import javax.xml.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-@XmlType(name = "shop")
-@XmlRootElement
+//@XmlType(name = "shop")
+//@XmlRootElement
 public class Shop {
     public Goods goods = new Goods();
     public int count;

@@ -1,8 +1,8 @@
 package com.javarush.task.task33.task3308;
 
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
-import javax.xml.bind.Unmarshaller;
+//import javax.xml.bind.JAXBContext;
+//import javax.xml.bind.JAXBException;
+//import javax.xml.bind.Unmarshaller;
 import java.io.StringReader;
 
 /* 
@@ -10,7 +10,8 @@ import java.io.StringReader;
 */
 
 public class Solution {
-    public static void main(String[] args) throws JAXBException {
+//    public static void main(String[] args) throws JAXBException {
+    public static void main(String[] args)  {
         String xmlData =
                 "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n" +
                         "<shop>\n" +
@@ -29,12 +30,12 @@ public class Solution {
 
         StringReader reader = new StringReader(xmlData);
 
-        JAXBContext context = JAXBContext.newInstance(getClassName());
-        Unmarshaller unmarshaller = context.createUnmarshaller();
+//        JAXBContext context = JAXBContext.newInstance(getClassName());
+//        Unmarshaller unmarshaller = context.createUnmarshaller();
+//
+//        Object o = unmarshaller.unmarshal(reader);
 
-        Object o = unmarshaller.unmarshal(reader);
-
-        System.out.println(o.toString());
+//        System.out.println(o.toString());
     }
 
     public static Class getClassName() {

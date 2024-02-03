@@ -1,6 +1,8 @@
 package com.javarush.task.task37.task3707;
 
-import java.io.*;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
 import java.util.*;
 
 public class AmigoSet<E> extends AbstractSet<E> implements Set<E>, Serializable, Cloneable {
